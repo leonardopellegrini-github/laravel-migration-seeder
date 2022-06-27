@@ -20,7 +20,6 @@ class CreateTrainsTable extends Migration
             $table->string('station_departure', 50);
             $table->string('station_arrival', 50);
             $table->string('time_departure', 50);
-            $table->string('time_departure', 50);
             $table->string('number_train_carriages', 50);
             $table->boolean('delay');
             $table->timestamps();
